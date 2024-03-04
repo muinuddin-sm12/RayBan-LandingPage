@@ -16,12 +16,18 @@ html,body {
 .elem {
     height: 9vw;
     overflow: hidden;
+    position: relative;
+}
+.elem h1:nth-child(1){
+    top: 0;
 }
 .elem h1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
     line-height: .9;
     font-family: 'kajiro';
     color: white;
-    letter-spacing: 1px;
     font-weight: 100;
     font-size: 11vw;
 }
@@ -30,7 +36,6 @@ html,body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
 #back img {
     height: 100%;
